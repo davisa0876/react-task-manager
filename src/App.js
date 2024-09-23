@@ -4,7 +4,7 @@ import Home from './pages/Home';
 import AddTask from './pages/AddTask';
 import TaskDetailPage from './pages/TaskDetailPage';
 import { TaskProvider } from './context/TaskContext';
-
+import './App.css'; // Import your CSS here
 function App() {
   return (
     <TaskProvider>
